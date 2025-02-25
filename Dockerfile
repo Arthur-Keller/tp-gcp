@@ -12,6 +12,8 @@ COPY .  /app
 # Installer les dépendances
 RUN pip install --no-cache-dir -r requirements.txt
 
+ENV BUCKET=$BUCKET
+
 # Exposer le port 8080 pour Cloud Run
 EXPOSE 8080
     
