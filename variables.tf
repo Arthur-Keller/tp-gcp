@@ -1,27 +1,20 @@
-variable "project_id" {
-  description = "L'identifiant du projet GCP"
-  type        = string
+variable "ID" {
+  type = string
 }
 
-variable "region" {
-  description = "La région GCP"
-  type        = string
-  default     = "europe-west1"
+
+variable "REGION" {
+  type = string
 }
 
-variable "zone" {
-  description = "La zone GCP"
-  type        = string
-  default     = "europe-west1-b"
+
+variable "BUCKET" {
+  type = string
 }
 
-variable "bucket_name" {
-  description = "Le nom du bucket Cloud Storage"
-  type        = string
-  default     = "my-terraform-bucket"
+
+variable "SERVICE_ACCOUNT" {
+  type = string
 }
 
-variable "docker_image" {
-  description = "Le nom complet de l'image Docker à déployer sur Cloud Run"
-  type        = string
-}
+
