@@ -1,6 +1,6 @@
 #output "bucket_name" {
 #  description = "Nom du BUCKET"
-#  value       = google_storage_bucket.sto_illies.name
+#  value       = google_storage_bucket.sto_arthur.name
 #}
 
 output "url_app" {

@@ -1,5 +1,5 @@
 # Création du bucket Cloud Storage
-resource "google_storage_bucket" "sto_illies" {
+resource "google_storage_bucket" "sto_arthur" {
   name          = var.BUCKET
   location      = var.REGION
   storage_class = "STANDARD"
