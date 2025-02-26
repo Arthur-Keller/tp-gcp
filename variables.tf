@@ -8,7 +8,7 @@ variable "REGION" {
 }
 
 
-variable "BUCKET" {
+variable "BUCKET_NAME" {
   type = string
 }
 

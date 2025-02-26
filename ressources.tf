@@ -1,6 +1,6 @@
 # Création du bucket Cloud Storage
 resource "google_storage_bucket" "sto_arthur" {
-  name          = var.BUCKET
+  name          = var.BUCKET_NAME
   location      = var.REGION
   storage_class = "STANDARD"
 
@@ -50,8 +50,8 @@ resource "google_cloud_run_service" "app_service" {
       containers {
         image = "gcr.io/${var.ID}/bucket_arthur_test"
         env {
-          name  = "BUCKET"
-          value = var.BUCKET
+          name  = "BUCKET_NAME"
+          value = var.BUCKET_NAME
         
 	}
 
