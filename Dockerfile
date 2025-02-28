@@ -18,4 +18,4 @@ ENV BUCKET=$BUCKET
 EXPOSE 8080
     
 # Commande pour démarrer l'application
-CMD ["python3", "app_ctp.py"]
+CMD ["python3", "/app/app_ctp.py"]
