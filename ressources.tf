@@ -62,7 +62,7 @@ resource "google_cloud_run_service" "app_service" {
   template {
     spec {
       containers {
-        image = "gcr.io/${var.ID}/bucket_arthur_test"
+        image = "gcr.io/${var.ID}/bucket_arthur_ctp"
         env {
           name  = "BUCKET_NAME"
           value = var.BUCKET_NAME
