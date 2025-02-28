@@ -37,9 +37,9 @@ Lien du bucket
 [https://console.cloud.google.com/storage/browser/bucket_arthur;tab=objects?forceOnBucketsSortingFiltering=true&inv=1&invt=AbqxPQ&orgonly=true&project=premier-projet-442510&supportedpurview=organizationId&prefix=&forceOnObjectsSortingFiltering=false](https://console.cloud.google.com/storage/browser/bucket_arthur;tab=objects?forceOnBucketsSortingFiltering=true&inv=1&invt=AbqxPQ&orgonly=true&project=premier-projet-442510&supportedpurview=organizationId&prefix=&forceOnObjectsSortingFiltering=false)
 
 Le nom du projet gcp se nomme : Premier projet
-Son ID est premier-projet-442510 
+Son ID est premier-projet-442510
 
 Mes images sont dans le buckets et aussi dans le dépot github
 
 Lien pour tester le projet en cicd
-[https://cloud-run-app-wkm2gdadha-ez.a.run.app/app/test](https://cloud-run-app-wkm2gdadha-ez.a.run.app/app/test)
+[https://cloud-run-app-wkm2gdadha-ez.a.run.app/app/toto](https://cloud-run-app-wkm2gdadha-ez.a.run.app/app/toto)
