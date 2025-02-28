@@ -10,7 +10,7 @@ COPY .  /app
 
 
 # Installer les dépendances
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 ENV BUCKET=$BUCKET
 
@@ -18,4 +18,4 @@ ENV BUCKET=$BUCKET
 EXPOSE 8080
     
 # Commande pour démarrer l'application
-CMD ["python", "app_bucket.py"]
+CMD ["python3", "app_ctp.py"]
