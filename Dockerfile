@@ -18,4 +18,4 @@ ENV BUCKET=$BUCKET
 EXPOSE 8080
     
 # Commande pour démarrer l'application
-CMD ["python", "app_bucket.py"]
+CMD ["python", "app_ctp.py"]
